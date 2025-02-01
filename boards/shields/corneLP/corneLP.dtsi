@@ -11,7 +11,7 @@
         zmk,physical-layout = &foostan_corne_6col_layout;
     };
     
-/ {
+ 
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
@@ -27,7 +27,7 @@
     };
 };
 
-/ {
+ {
     default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <12>;
